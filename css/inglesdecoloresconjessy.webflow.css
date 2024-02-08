@@ -940,7 +940,10 @@ figcaption {
 }
 
 .nav-menu {
+  justify-content: center;
+  align-items: center;
   margin-right: auto;
+  display: flex;
 }
 
 .navbar {
@@ -1002,6 +1005,11 @@ figcaption {
 
 .logo-link {
   padding-left: 0;
+}
+
+.logo-link.w--current {
+  width: 10vw;
+  height: 10vw;
 }
 
 .image-3 {
@@ -2292,6 +2300,8 @@ figcaption {
 
 .image-12 {
   width: 10vw;
+  height: 10vw;
+  max-width: none;
 }
 
 @media screen and (max-width: 991px) {
