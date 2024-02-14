@@ -495,7 +495,7 @@ figcaption {
 
 .page-padding {
   background-color: var(--misty-rose);
-  padding-bottom: 4rem;
+  padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
 }
@@ -3142,6 +3142,11 @@ figcaption {
     display: none;
   }
 
+  .page-padding {
+    background-color: var(--misty-rose);
+    padding-bottom: 0;
+  }
+
   .fs-styleguide_2-col {
     grid-template-columns: auto;
   }
@@ -3213,6 +3218,10 @@ figcaption {
     padding-right: 0;
   }
 
+  .padding-vertical.padding-xxlarge {
+    padding-bottom: 0;
+  }
+
   .padding-horizontal {
     padding-top: 0;
     padding-bottom: 0;
@@ -3270,6 +3279,14 @@ figcaption {
   .scroller-component {
     padding-top: 20px;
     padding-bottom: 40px;
+  }
+
+  .section-business {
+    background-color: #e4d3ca;
+  }
+
+  .heading-2 {
+    flex: 1;
   }
 
   .number-heading {
